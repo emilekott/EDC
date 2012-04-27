@@ -18,3 +18,7 @@ color: #495928;
 body { 
 	background-color: #495928; 
 }
+
+.clear{
+    clear: both;
+}
