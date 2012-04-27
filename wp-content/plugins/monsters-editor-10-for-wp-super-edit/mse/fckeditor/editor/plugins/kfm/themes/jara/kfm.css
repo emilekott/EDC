@@ -1,0 +1,81 @@
+*{font:14px sans-serif}
+html{height:100%} /* solves a bug in Konqueror */
+body{margin:0;padding:0;height:100%}
+form{padding:0;margin:0}
+td{vertical-align:top}
+
+#kfm_directory_properties{color:#666}
+#kfm_directory_properties td {border: 1px solid orange; padding: 1px;}
+#kfm_directory_properties strong{display:block; font-weight:bold; background-color: #FFD992; padding: 2px;}
+#kfm_drag_wrapper{position:absolute;padding:10px;text-decoration:underline;color:#00f;border:1px solid #000;-moz-border-radius:10px;font-size:smaller;background:#9cf}
+#kfm_selection_drag_wrapper{position:absolute;border:1px solid #000;-moz-border-radius:10px;background:#9cf}
+#kfm_left_column{width:240px;position:relative;float:left;background:white;border-right:1px solid #bababa;overflow:hidden;}
+#kfm_logs_panel p{background-color: #FFD992; border-top: 1px solid white; font: 10px sans-serif; margin:0; padding: 0 0 0 2px; color: #555}
+#kfm_right_column{overflow:auto;position:relative;height:100%;background:white;}
+#kfm_right_column div.kfm_panel_header { background:transparent url(themes/jara/bitsandpieces/panels_background.gif) right top repeat-x;}
+
+.boxdroptracer{border:1px solid #000;-moz-border-radius:10px;background:#9cf;height:0;width:0;position:absolute;left:0;top:0}
+.last_clicked{border-style:dashed !important;border-color:orange !important;}
+
+.kfm_contextmenu_iconCell{width:20px;height:20px;background:#efefde}
+.contextmenu{width:auto;margin:0;padding:0;position:absolute;background:#fff;border:1px solid #000}
+.contextmenu a:hover{background-color:#efefde}	/* fix for IE - it has major problems with :hover */
+.contextmenu tr:hover *{background:#efefde;}
+.contextmenu a{display:block;color:#000;text-decoration:none}
+
+
+.kfm_directoryWrapper{display:block;padding-left:32px;min-height:32px;background:url(themes/jara/icons/folder.png) no-repeat left top;clear:left;clear:left;}
+.kfm_directoryWrapper.kfm_directory_open{background-image:url(themes/jara/icons/folder_yellow.png)}
+div.kfm_panel{position:relative;width:240px; background:transparent url(themes/jara/bitsandpieces/panels_background.gif) right -48px repeat-x;}
+div.kfm_panel_body{width:240px;overflow:auto}
+
+#kfm_file_upload_panel div.kfm_panel_body{overflow:hidden;}
+
+div.kfm_panel_header{background:transparent url(themes/jara/bitsandpieces/panels_inactive.gif) right top no-repeat;border-bottom:1px solid #bababa;padding:0 5px;position:relative;}
+#left_column div.kfm_panel_header{width:240px;}
+html>body #left_column div.kfm_panel_header{width:230px;}
+div.kfm_panel_header a{font-size:0;text-indent:-4000px;position:absolute;height:16px;width:20px;background-image:url(themes/jara/bitsandpieces/panels_active.gif)}
+div.kfm_panel_header a:hover{background-image:url(themes/jara/bitsandpieces/panels_hovered.gif)}
+div.kfm_panel_header a.kfm_panel_header_x{right:0;background-position:-82px 0}
+div.kfm_panel_header a.kfm_panel_header_M{right:21px;background-position:-61px 0}
+div.kfm_panel_header a.kfm_panel_header_r{right:21px;background-position:-61px 0}
+div.kfm_panel_header a.kfm_panel_header__{right:41px;background-position:-41px 0}
+div.kfm_panel_header a.kfm_panel_header_u{right:61px;background-position:-21px 0}
+div.kfm_panel_header a.kfm_panel_header_d{right:82px;background-position:0 0}
+div.kfm_panel_header a{float:right;text-decoration:none}
+
+.kfm_empty{font-style:italic;color:#666}
+
+.kfm_file_icon{display:block;margin:5px;float:left;min-height:20px;background:url(themes/jara/icons/empty.png) no-repeat top center;padding:64px 10px 5px 10px;text-align:center;color:#00f;border:1px solid #fff;-moz-border-radius:10px;width:108px;overflow-x:hidden}
+.kfm_file_icon span.filename{text-decoration:underline}
+.kfm_file_icon.kfm_icontype_bmp{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_doc{background-image:url(themes/jara/icons/document.png)}
+.kfm_file_icon.kfm_icontype_gif{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_jpg{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_jpeg{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_mdb{background-image:url(themes/jara/icons/database.png)}
+.kfm_file_icon.kfm_icontype_png{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_tiff{background-image:url(themes/jara/icons/image.png)}
+.kfm_file_icon.kfm_icontype_tbz2{background-image:url(themes/jara/icons/zip.png)}
+.kfm_file_icon.kfm_icontype_tgz{background-image:url(themes/jara/icons/zip.png)}
+.kfm_file_icon.kfm_icontype_txt{background-image:url(themes/jara/icons/txt.png)}
+.kfm_file_icon.kfm_icontype_xls{background-image:url(themes/jara/icons/spreadsheet.png)}
+.kfm_file_icon.kfm_icontype_zip{background-image:url(themes/jara/icons/zip.png)}
+div:hover.kfm_file_icon{background-color:#f0f8ff;border-color:#bababa}
+div.kfm_file_icon.selected{background-color:#9cf;border-color:#000}
+
+#kfm_directories,#kfm_directories table{border-spacing:0;margin:0;width:100%}
+#kfm_directories td{padding:0}
+#kfm_directories *{line-height:14px;font:12px sans-serif}
+#kfm_directories .kfm_dir_lines_child{width:16px;height:18px;background:url(themes/jara/folders.gif) -16px 0 no-repeat}
+#kfm_directories .kfm_dir_lines_child a{font-size:0;text-indent:-4000px;display:block;width:16px;height:18px;background:url(themes/jara/folders.gif) -32px -18px}
+#kfm_directories .kfm_dir_lines_child a.kfm_dir_node_closed{background:url(themes/jara/folders.gif) -32px 0}
+#kfm_directories .kfm_dir_lines_lastchild{width:16px;height:18px;background:url(themes/jara/folders.gif) -16px -18px no-repeat}
+#kfm_directories .kfm_dir_lines_lastchild a{font-size:0;text-indent:-4000px;display:block;width:16px;height:18px;background:url(themes/jara/folders.gif) -32px -18px no-repeat}
+#kfm_directories .kfm_dir_lines_lastchild a.kfm_dir_node_closed{background:url(themes/jara/folders.gif) -32px 0 no-repeat}
+#kfm_directories .kfm_dir_lines_nochild{width:16px;background:url(themes/jara/folders.gif) 0 0 repeat-y}
+#kfm_directories .kfm_dir_name{background:url(themes/jara/folders.gif) no-repeat -48px 0;text-indent:18px;color:black;position:relative}
+#kfm_directories .kfm_dir_name.kfm_directory_open{background-image:url(themes/jara/folders.gif) -48px -18px;background-color:#fe9}
+#kfm_directories .kfm_dir_name div:hover{color:orange}
+
+

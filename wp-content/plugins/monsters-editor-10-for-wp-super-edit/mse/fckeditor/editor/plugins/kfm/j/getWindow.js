@@ -1,0 +1,3 @@
+function getWindow(){
+	return window;
+}

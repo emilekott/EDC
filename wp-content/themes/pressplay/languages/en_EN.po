@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael <michaelmdance@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: pressplay/tag.php:24
+#: pressplay/search.php:24
+#: pressplay/index.php:16
+#: pressplay/category.php:25
+#: pressplay/date.php:27
+#: pressplay/author.php:31
+msgid " % comments"
+msgstr ""
+
+#. Text in function
+#: pressplay/tag.php:24
+#: pressplay/search.php:24
+#: pressplay/index.php:16
+#: pressplay/category.php:25
+#: pressplay/date.php:27
+#: pressplay/author.php:31
+msgid " 1 comment"
+msgstr ""
+
+#. Text in function
+#: pressplay/tag.php:24
+#: pressplay/search.php:24
+#: pressplay/index.php:16
+#: pressplay/category.php:25
+#: pressplay/date.php:27
+#: pressplay/author.php:31
+msgid " Comments turned off"
+msgstr ""
+
+#. Text in function
+#: pressplay/tag.php:24
+#: pressplay/search.php:24
+#: pressplay/index.php:16
+#: pressplay/category.php:25
+#: pressplay/date.php:27
+#: pressplay/author.php:31
+msgid " No comments yet"
+msgstr ""
+
+#. Text in echo
+#: pressplay/tag.php:35
+#: pressplay/search.php:35
+#: pressplay/index.php:27
+#: pressplay/category.php:36
+#: pressplay/date.php:38
+#: pressplay/author.php:42
+#: pressplay/single.php:16
+msgid " on "
+msgstr ""
+
+#. Text in echo
+#: pressplay/author.php:11
+msgid " posts written by"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:17
+msgid "% Responses"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:20
+#: pressplay/comments.php:30
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:72
+#: pressplay/comments.php:75
+msgid "(required)"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:82
+msgid "<strong>XHTML:</strong> You can use these tags: "
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:72
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:80
+msgid "Authors"
+msgstr ""
+
+#. Text in echo
+#: pressplay/tag.php:35
+#: pressplay/search.php:35
+#: pressplay/index.php:27
+#: pressplay/category.php:36
+#: pressplay/date.php:38
+#: pressplay/author.php:42
+#: pressplay/single.php:16
+msgid "By"
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:77
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: pressplay/image.php:34
+#: pressplay/single.php:25
+msgid "Categorized under:"
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:22
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: pressplay/links.php:23
+#: pressplay/archives.php:23
+#: pressplay/image.php:21
+#: pressplay/index.php:34
+#: pressplay/no-sidebar.php:23
+#: pressplay/widget-page.php:23
+#: pressplay/single.php:18
+#: pressplay/page.php:17
+msgid "Continue reading "
+msgstr ""
+
+#. Text in echo
+#: pressplay/tag.php:43
+#: pressplay/search.php:43
+#: pressplay/category.php:44
+#: pressplay/date.php:46
+#: pressplay/author.php:50
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#. Text in echo
+#: pressplay/footer.php:26
+msgid "Copyright &copy; "
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:79
+msgid "Dates"
+msgstr ""
+
+#. Text in echo
+#: pressplay/category.php:4
+msgid "Displaying posts categorized under"
+msgstr ""
+
+#. Text in echo
+#: pressplay/date.php:6
+msgid "Displaying posts published in"
+msgstr ""
+
+#. Text in echo
+#: pressplay/tag.php:4
+msgid "Displaying posts tagged with"
+msgstr ""
+
+#. Text in echo
+#: pressplay/search.php:4
+msgid "Displaying search results for"
+msgstr ""
+
+#. Text in function
+#: pressplay/links.php:22
+#: pressplay/tag.php:35
+#: pressplay/archives.php:22
+#: pressplay/search.php:35
+#: pressplay/index.php:27
+#: pressplay/category.php:36
+#: pressplay/date.php:38
+#: pressplay/author.php:42
+#: pressplay/no-sidebar.php:22
+#: pressplay/widget-page.php:22
+#: pressplay/single.php:16
+#: pressplay/page.php:16
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Fixed"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Header"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:127
+msgid "If you enjoy using this theme and would like to donate,"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "If you\\'d like to add a logo next to the site title & description, input the image URL below:"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "If you\\'d like to customize the header with your own background image, input the image URL below:"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "If you\\'d like to replace the site title & description with your own title image, input the image URL below:"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Layout"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:53
+msgid "Leave a Response"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:53
+msgid "Leave a Response to %s"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:67
+msgid "Log out"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:67
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:67
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:75
+msgid "Mail (will not be shared)"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:127
+msgid "Mix and match the options below to create a custom, professional look for your site."
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:72
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:21
+#: pressplay/comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:17
+msgid "No Responses"
+msgstr ""
+
+#. Text in function
+#: pressplay/sidebar.php:35
+msgid "No comments yet."
+msgstr ""
+
+#. Text in echo
+#: pressplay/search.php:59
+msgid "No results found."
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:17
+msgid "One Response"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:126
+msgid "Options"
+msgstr ""
+
+#. Text in echo
+#: pressplay/404.php:11
+msgid "Page not found."
+msgstr ""
+
+#. Text in function
+#: pressplay/comments.php:1
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:21
+msgid "Posts"
+msgstr ""
+
+#. Text in echo
+#: pressplay/footer.php:25
+msgid "Powered by"
+msgstr ""
+
+#. Text in echo
+#: pressplay/footer.php:25
+msgid "PressPlay Theme"
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:16
+msgid "Recent"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:247
+msgid "Reset to defaults"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Right Sidebar"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:240
+msgid "Save changes"
+msgstr ""
+
+#. Text in echo
+#: pressplay/404.php:22
+#: pressplay/header.php:124
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Stretched"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:86
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in echo
+#: pressplay/header.php:95
+msgid "Subscribe"
+msgstr ""
+
+#. Text in echo
+#: pressplay/image.php:35
+#: pressplay/single.php:26
+msgid "Tagged with: "
+msgstr ""
+
+#. Text in echo
+#: pressplay/sidebar.php:78
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: pressplay/404.php:6
+msgid "That annoying 404 error."
+msgstr ""
+
+#. Text in echo
+#: pressplay/404.php:18
+msgid "The page you tried to reach doesn\\'t exist. Check for typos or perform a search:"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:78
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Width"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Will be cropped to 121 pixels high. Example:"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Will be cropped to 80 pixels high. Example:"
+msgstr ""
+
+#. Text in function
+#: pressplay/functions/theme-options.php:1
+msgid "Will be cropped to 80x80 pixels. Example:"
+msgstr ""
+
+#. Text in echo
+#: pressplay/footer.php:25
+msgid "WordPress"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:60
+msgid "You must be"
+msgstr ""
+
+#. Text in echo
+#: pressplay/footer.php:25
+msgid "and the"
+msgstr ""
+
+#. Text in echo
+#: pressplay/functions/theme-options.php:127
+msgid "click here"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:60
+msgid "logged in"
+msgstr ""
+
+#. Text in echo
+#: pressplay/image.php:35
+#: pressplay/single.php:26
+msgid "no tags. "
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:17
+msgid "to"
+msgstr ""
+
+#. Text in echo
+#: pressplay/comments.php:60
+msgid "to post a comment."
+msgstr ""
+

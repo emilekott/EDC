@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+# File modified on Fri May 25 10:52:48 2007 by server
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value magic_quotes_gpc off

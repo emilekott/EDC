@@ -1,0 +1,118 @@
+numbers in parentheses are the bug numbers as recorded at http://mantis.verens.com/
+
+0.8
+				Romanian language file
+	(167)	when $kfm_userfiles_output=get.php, thumbs don't appear
+	(166)	Picture thumbnail not generated
+	(165)	error on test page...
+	(164)	Adding PHP as an editible file
+	(163)	bug in CodePress where it can't find the main KFM window
+	(162)	When editing javascript file with KFM the + (plus) signs disappear
+	(161)	ability to define directory and file permissions for filesystem
+	(160)	images with capitalised extensions not recognised
+	(159)	KFM buggy when using IE to access live website
+	(157)	A noticable delay between double click on a file and focus returned to fckeditor
+	(156)	No picture thumbnail
+	(155)	KFM to return an absolute URL of the file
+	(154)	adapt KFM to allow multiple site configurations
+	(152)	very large images cause the thumbnail creator to break
+	(151)	drag-selection is incorrect if the window is scrolled
+	(150)	if you are editing a file, and click a directory in the left pane, you lose your changes
+	(149)	File Details Panel not working
+	(148)	Uploaded graphics file does not appear automatically in the file list panel
+	(147)	Unzip .zip files does not work
+	(146)	config.php should be split into config.php and initialise.php
+	(145)	Context menu being cut-off if the file is listed at the bottom of the page
+	(144)	directory jumps to other location unintentionally
+	(143)	add ability to remove tags from files
+	(142)	add contextmenu link for linking to image thumbnails
+	(141)	in "edit file", if you click "view", when the extension is not in the $kfm_viewable_extensions list, you get an error
+	(140)	if "view file" window is wide, buttons are stretched apart
+	(139)	problem with an older kfm version
+	(135)	name truncation is only applied to directories that have sub-directories
+	(134)	add a metrics logger
+	(131)	download Pear modules as needed...
+	(129)	KFM should install to a db using a user-defined prefix for the tables
+	(126)	syntax-highlighted text-editing
+	(125)	syntax highlighting should be done in the client
+	(120)	Feature requests for using as full file manager.
+	(118)	Editing file does not work
+	(113)	Drag&Drop is irritating
+	(112)	generate a large "quilt" of file icons for http request optimisation
+	(111)	use imagemagick where necessary
+	(110)	when navigation using the arrow keys, keep the selected icon in view
+	(103)	add ability to rename multiple files
+	(102)	context menus can cause scrollbars
+	(98)	PHP fatal error & no frontend errors
+	(97)	konqueror's context menus are broken again
+	(89)	multi-line captions
+	(88)	extract comments from .gifs to be used as captions
+	(68)	Mark selected folder upon opening of KFM
+	(21)	draw icons with SVG if possible
+	(19)	local storage
+	(18)	examine bumptop to see if it is in anyway an interesting idea for us
+	(12)	allow files to be "tagged"
+
+0.7
+	      Bulgarian language file
+	(84)  add ability to zip/unzip files
+	(127)	use MDB2to allow usage of MySQL and PostGres as well as SQLite
+	(33)	add an fpassthru script to handle authentication
+	(117)	i have error report in my DOM...whta is mean
+	(100)	Style issues
+	(80)	directory names should use the truncation method
+	(128)	display render is slow when viewing large lists of files
+	(122)	use sqlite for meta-data, etc
+	(108) "download from url" is not user-friendly
+
+0.6
+	      new function to view syntax-hightlighted text-file contents
+	(79)	should be possible to move directories 
+	(78)	should be able to rename directories 
+	(11)	ability to search for files 
+	(32)	add meta directory ".files" 
+	(74)	kaejax needs to be rewritten 
+	(40)	open Rename popup by using F2 
+	(101)	Escape key close manager ?  
+	(96)	cannot delete directories that contain files/directories 
+	(105)	Panel 'File Details' doesnt work with arrowkeys 
+	(106)	implement up/down arrow key navigation for files 
+	(114)	path addition $kfm_userfiles_server / $kfm_userfiles_web 
+	(115)	Problems with path
+	(116)	File Detail giving error when file is selected
+	(119)	Not displaying not writable directories 
+
+0.5
+	(20)	allow editing of text files, using a notepad clone or FCKeditor
+	(77)	directories with no sub-directories should not have open/close nodes
+	(76)	Rightclick on folder icons doesnt do expected action
+	(64)	"closed" panels should be re-openable by contextmenu
+	(90)	cannot delete directories
+	(08)	automatic caption extraction
+	(81)	Automated nightly builds
+	(51)	directory view looks awful. redo it
+	(66)	konqueror's oncontextmenu is overridden by the browser's contextmenu
+	(75)	Spanish translation file
+	(39)	ie: file selection cleared after a drag-selection
+	(73)	context menus should be recursive
+	(36)	change selected file using arrow keys
+	(68)	Mark selected folder upon opening of KFM
+	(71)	bug(s) - php notices & config.php issues
+	(72)	Check for JS or place a nice error message
+
+0.3-0.4
+	(38) properties for directories
+	(58) ability to remove the log panel
+	(49) "file info" panel, when one file is selected
+	(45) panels should swap position with others as needed
+	(43) maximised panels need "minimise" and "restore" buttons
+	(54) Long filenames ..
+	(57) get kfm working basically with konqueror
+	(62) Server parse error
+	(67) panel buttons should have graphics instead of text
+	(65) themes
+	(61) IE - undefined bug
+	(63) php - use short_open_tag ? (<? vs <?php)
+	(56) Upload panel too small in IE 6 & panel max-min-buttons disappears
+	(55) Mantis Bug - Email sender
+	(69) Languagepacks

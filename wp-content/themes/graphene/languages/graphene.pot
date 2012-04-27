@@ -1,0 +1,924 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene 1.0 theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-27 17:33+1200\n"
+"PO-Revision-Date: 2010-10-27 17:33+1200\n"
+"Last-Translator: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: D:\\[[MyVault]]\\MyProjects\\[Websites]\\wordpress-theme-test\\site\\wp-content\\themes\\graphene\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: author.php:33
+msgid "Author's posts listings"
+msgstr ""
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:39
+msgid "No comment yet"
+msgstr ""
+
+#: comments.php:39
+#: loop-author.php:78
+#: loop.php:92
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:39
+#: loop-author.php:78
+#: loop.php:92
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments have been disabled."
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:86
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:89
+#: functions.php:762
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:29
+msgid "Except where otherwise noted, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Licence</a>."
+msgstr ""
+
+#: footer.php:41
+msgid "Valid XHTML 1.0 Strict"
+msgstr ""
+
+#: footer.php:42
+msgid "Valid CSS"
+msgstr ""
+
+#: footer.php:42
+msgid "Valid CSS Level 2.1"
+msgstr ""
+
+#: footer.php:66
+#, php-format
+msgid "%1$s uses %2$s theme by %3$s."
+msgstr ""
+
+#: functions.php:92
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:136
+msgid "Header image by Syahir Hakim"
+msgstr ""
+
+#: functions.php:142
+msgid "This is the default Graphene theme header image, cropped from image by Quantin Houyoux at sxc.hu"
+msgstr ""
+
+#: functions.php:148
+#: functions.php:154
+#: functions.php:160
+#: functions.php:166
+#: functions.php:172
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr ""
+
+#: functions.php:379
+msgid "Home"
+msgstr ""
+
+#: functions.php:407
+msgid " says:"
+msgstr ""
+
+#: functions.php:413
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:415
+msgid "Edit comment"
+msgstr ""
+
+#: functions.php:419
+msgid "Reply"
+msgstr ""
+
+#: functions.php:430
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:523
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:525
+msgid "The right sidebar widget area."
+msgstr ""
+
+#: functions.php:533
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:535
+msgid "The footer widget area. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr ""
+
+#: functions.php:551
+msgid "Front Page Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:553
+msgid "The right sidebar widget area that will only be displayed on the front page."
+msgstr ""
+
+#: functions.php:563
+msgid "Front Page Footer Widget Area"
+msgstr ""
+
+#: functions.php:565
+msgid "The footer widget area that will only be displayed on the front page. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr ""
+
+#: functions.php:617
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: functions.php:654
+msgid "Latest tweets"
+msgstr ""
+
+#: functions.php:659
+msgid "Title:"
+msgstr ""
+
+#: functions.php:663
+msgid "Twitter Username:"
+msgstr ""
+
+#: functions.php:667
+msgid "Number of tweets to display:"
+msgstr ""
+
+#: functions.php:700
+msgid "Graphene Options"
+msgstr ""
+
+#: functions.php:701
+msgid "Graphene Display"
+msgstr ""
+
+#: functions.php:743
+msgid "Name:"
+msgstr ""
+
+#: functions.php:744
+msgid "Email:"
+msgstr ""
+
+#: functions.php:745
+msgid "Website:"
+msgstr ""
+
+#: functions.php:755
+msgid "Message:"
+msgstr ""
+
+#: functions.php:782
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: functions.php:812
+msgid "Older posts &laquo;"
+msgstr ""
+
+#: functions.php:813
+msgid "&raquo; Newer posts"
+msgstr ""
+
+#: functions.php:933
+msgid "View full post"
+msgstr ""
+
+#: functions.php:1050
+msgid "<strong>ERROR: You must supply the post ID to get the image from as an argument when calling the graphene_get_post_image() function.</strong>"
+msgstr ""
+
+#: header.php:55
+msgid "Subscribe to RSS feed"
+msgstr ""
+
+#: header.php:97
+#: header.php:100
+msgid "Go back to the front page"
+msgstr ""
+
+#: loop-author.php:23
+msgid "Author's details"
+msgstr ""
+
+#: loop-author.php:25
+#, php-format
+msgid "<strong>Name:</strong> %1$s %2$s"
+msgstr ""
+
+#: loop-author.php:26
+#, php-format
+msgid "<strong>Date registered:</strong> %1$s"
+msgstr ""
+
+#: loop-author.php:35
+msgid "Biography"
+msgstr ""
+
+#: loop-author.php:47
+msgid "Latest posts"
+msgstr ""
+
+#: loop-author.php:50
+#: loop-author.php:78
+#: loop.php:26
+#: search-404.php:24
+#, php-format
+msgid "Permalink Link to %s"
+msgstr ""
+
+#: loop-author.php:50
+#: loop-author.php:78
+#: loop.php:26
+msgid "(No title)"
+msgstr ""
+
+#: loop-author.php:73
+msgid "Most commented posts"
+msgstr ""
+
+#: loop-author.php:78
+#: loop.php:92
+msgid "Leave comment"
+msgstr ""
+
+#: loop.php:46
+msgid "by"
+msgstr ""
+
+#: loop.php:48
+msgid "Edit post"
+msgstr ""
+
+#: loop.php:66
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: loop.php:70
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: loop.php:80
+msgid "Tags:"
+msgstr ""
+
+#: loop.php:80
+msgid "This post has no tag"
+msgstr ""
+
+#: loop.php:105
+msgid "About the author"
+msgstr ""
+
+#: loop.php:136
+msgid "Not found"
+msgstr ""
+
+#: loop.php:141
+msgid "Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr ""
+
+#: loop.php:143
+msgid "Sorry, but no results were found for that keyword. Wanna try an alternative keyword search?"
+msgstr ""
+
+#: search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: search-404.php:5
+msgid "Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr ""
+
+#: search-404.php:6
+msgid "If you follow the link from another website, I may have removed or renamed the page some time ago. You may want to try searching for the page:"
+msgstr ""
+
+#: search-404.php:14
+msgid "Suggested results"
+msgstr ""
+
+#: search-404.php:18
+#, php-format
+msgid "I've done a courtesy search for the term %s for you. See if you can find what you're looking for in the list below:"
+msgstr ""
+
+#: search-404.php:35
+msgid "<strong>Sorry, couldn't find anything.</strong> Try searching for alternative terms using the search form above."
+msgstr ""
+
+#: searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:34
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:41
+msgid "Meta"
+msgstr ""
+
+#: sidebar.php:46
+msgid "Posts RSS"
+msgstr ""
+
+#: sidebar.php:47
+msgid "Comments RSS"
+msgstr ""
+
+#: sidebar.php:49
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: sidebar.php:49
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: admin/custom-fields.php:15
+msgid "Graphene post-specific options"
+msgstr ""
+
+#: admin/custom-fields.php:16
+msgid "Graphene page-specific options"
+msgstr ""
+
+#: admin/custom-fields.php:82
+msgid "These settings will only be applied to this particular post or page you're editing. They will override the global settings set in the Graphene Options or Graphene Display options page."
+msgstr ""
+
+#: admin/custom-fields.php:83
+msgid "Slider options"
+msgstr ""
+
+#: admin/custom-fields.php:87
+#: admin/options.php:284
+msgid "Slider image"
+msgstr ""
+
+#: admin/custom-fields.php:91
+#: admin/custom-fields.php:117
+msgid "Use global setting"
+msgstr ""
+
+#: admin/custom-fields.php:92
+#: admin/options.php:288
+msgid "Don't show image"
+msgstr ""
+
+#: admin/custom-fields.php:93
+#: admin/options.php:289
+msgid "Featured Image"
+msgstr ""
+
+#: admin/custom-fields.php:94
+#: admin/options.php:290
+msgid "First image in post"
+msgstr ""
+
+#: admin/custom-fields.php:95
+#: admin/options.php:291
+msgid "Custom URL"
+msgstr ""
+
+#: admin/custom-fields.php:101
+#: admin/options.php:297
+msgid "Custom slider image URL"
+msgstr ""
+
+#: admin/custom-fields.php:105
+#: admin/options.php:301
+msgid "Make sure you select Custom URL in the slider image option above to use this custom url."
+msgstr ""
+
+#: admin/custom-fields.php:109
+msgid "Display options"
+msgstr ""
+
+#: admin/custom-fields.php:113
+msgid "AddThis Social Sharing button"
+msgstr ""
+
+#: admin/custom-fields.php:118
+msgid "Show button"
+msgstr ""
+
+#: admin/custom-fields.php:119
+msgid "Hide button"
+msgstr ""
+
+#: admin/display.php:35
+#: admin/options.php:35
+#: admin/options.php:151
+#: admin/options.php:175
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr ""
+
+#: admin/display.php:73
+msgid "Please enter only numerical value for the footer widget column count."
+msgstr ""
+
+#: admin/display.php:82
+msgid "Please enter only numerical value for the front page footer widget column count."
+msgstr ""
+
+#: admin/display.php:92
+msgid "Please enter only numerical value for the navigation menu dropdown item width."
+msgstr ""
+
+#: admin/display.php:152
+#: admin/options.php:142
+msgid "Settings updated."
+msgstr ""
+
+#: admin/display.php:205
+msgid "Graphene Display Options"
+msgstr ""
+
+#: admin/display.php:211
+#: admin/options.php:227
+msgid "ERROR:"
+msgstr ""
+
+#: admin/display.php:237
+msgid "Header Display Options"
+msgstr ""
+
+#: admin/display.php:241
+msgid "Use light-coloured header bars"
+msgstr ""
+
+#: admin/display.php:247
+msgid "Link header image to front page"
+msgstr ""
+
+#: admin/display.php:250
+msgid "Check this if you disable the header texts and want the header image to be linked to the front page."
+msgstr ""
+
+#: admin/display.php:257
+msgid "Posts Display Options"
+msgstr ""
+
+#: admin/display.php:261
+msgid "Hide post author"
+msgstr ""
+
+#: admin/display.php:267
+msgid "Hide post date"
+msgstr ""
+
+#: admin/display.php:273
+msgid "Hide post categories"
+msgstr ""
+
+#: admin/display.php:279
+msgid "Hide post tags"
+msgstr ""
+
+#: admin/display.php:285
+msgid "Hide post comment count"
+msgstr ""
+
+#: admin/display.php:286
+msgid "Only affects posts listing (such as the front page) and not single post view."
+msgstr ""
+
+#: admin/display.php:291
+msgid "Show post author's gravatar"
+msgstr ""
+
+#: admin/display.php:295
+msgid "Show post author's info"
+msgstr ""
+
+#: admin/display.php:301
+msgid "Comments Display Options"
+msgstr ""
+
+#: admin/display.php:305
+msgid "Hide allowed tags in comment form"
+msgstr ""
+
+#: admin/display.php:313
+msgid "Text Style Options"
+msgstr ""
+
+#: admin/display.php:314
+msgid "Note that these are CSS properties, so any valid CSS values for each particular property can be used."
+msgstr ""
+
+#: admin/display.php:315
+msgid "Some example CSS properties values:"
+msgstr ""
+
+#: admin/display.php:318
+msgid "Text font:"
+msgstr ""
+
+#: admin/display.php:319
+msgid "<code>arial</code>, <code>tahoma</code>, <code>georgia</code>, <code>'Trebuchet MS'</code>"
+msgstr ""
+
+#: admin/display.php:322
+msgid "Text size and line height:"
+msgstr ""
+
+#: admin/display.php:323
+msgid "<code>12px</code>, <code>12pt</code>, <code>12em</code>"
+msgstr ""
+
+#: admin/display.php:326
+msgid "Text weight:"
+msgstr ""
+
+#: admin/display.php:327
+msgid "<code>normal</code>, <code>bold</code>, <code>100</code>, <code>700</code>"
+msgstr ""
+
+#: admin/display.php:330
+msgid "Text style:"
+msgstr ""
+
+#: admin/display.php:331
+msgid " <code>normal</code>, <code>italic</code>, <code>oblique</code>"
+msgstr ""
+
+#: admin/display.php:334
+msgid "Text colour:"
+msgstr ""
+
+#: admin/display.php:335
+msgid "<code>blue</code>, <code>navy</code>, <code>red</code>, <code>#ff0000</code>"
+msgstr ""
+
+#: admin/display.php:338
+#: admin/display.php:436
+#: admin/display.php:458
+msgid "Leave field empty to use the default value."
+msgstr ""
+
+#: admin/display.php:339
+msgid "Header Text"
+msgstr ""
+
+#: admin/display.php:343
+msgid "Title text font"
+msgstr ""
+
+#: admin/display.php:349
+msgid "Title text size"
+msgstr ""
+
+#: admin/display.php:355
+msgid "Title text weight"
+msgstr ""
+
+#: admin/display.php:361
+msgid "Title text line height"
+msgstr ""
+
+#: admin/display.php:367
+msgid "Title text style"
+msgstr ""
+
+#: admin/display.php:376
+msgid "Description text font"
+msgstr ""
+
+#: admin/display.php:382
+msgid "Description text size"
+msgstr ""
+
+#: admin/display.php:388
+msgid "Description text weight"
+msgstr ""
+
+#: admin/display.php:394
+msgid "Description text line height"
+msgstr ""
+
+#: admin/display.php:400
+msgid "Description text style"
+msgstr ""
+
+#: admin/display.php:405
+msgid "Content Text"
+msgstr ""
+
+#: admin/display.php:409
+msgid "Text font"
+msgstr ""
+
+#: admin/display.php:415
+msgid "Text size"
+msgstr ""
+
+#: admin/display.php:421
+msgid "Text line height"
+msgstr ""
+
+#: admin/display.php:427
+msgid "Text colour"
+msgstr ""
+
+#: admin/display.php:435
+msgid "Footer Widget Display Options"
+msgstr ""
+
+#: admin/display.php:441
+msgid "Number of columns to display"
+msgstr ""
+
+#: admin/display.php:448
+msgid "Number of columns to display for front page footer widget"
+msgstr ""
+
+#: admin/display.php:457
+msgid "Navigation Menu Display Options"
+msgstr ""
+
+#: admin/display.php:463
+msgid "Dropdown menu item width"
+msgstr ""
+
+#: admin/display.php:470
+msgid "Miscellaneous Display Options"
+msgstr ""
+
+#: admin/display.php:474
+msgid "Swap title order"
+msgstr ""
+
+#: admin/display.php:478
+msgid "If this is checked, the website title will be displayed first, followed by the page title."
+msgstr ""
+
+#: admin/display.php:486
+#: admin/options.php:440
+msgid "Update Settings"
+msgstr ""
+
+#: admin/options.php:55
+msgid "You must enter your Adsense code to enable Adsense advertising"
+msgstr ""
+
+#: admin/options.php:70
+msgid "You must enter your AddThis button code to enable the AddThis social sharing button"
+msgstr ""
+
+#: admin/options.php:85
+msgid "You must enter your Google Analytics tracking code to enable Google Analytics tracking."
+msgstr ""
+
+#: admin/options.php:156
+msgid "Uninstall Graphene"
+msgstr ""
+
+#: admin/options.php:157
+msgid "Please confirm that you would like to uninstall the Graphene theme. All of the theme's options in the database will be deleted."
+msgstr ""
+
+#: admin/options.php:158
+msgid "This action is not reversible."
+msgstr ""
+
+#: admin/options.php:162
+#: admin/options.php:465
+msgid "Uninstall Theme"
+msgstr ""
+
+#: admin/options.php:220
+msgid "Graphene Theme Options"
+msgstr ""
+
+#: admin/options.php:221
+msgid "These are the global settings for the theme. You may override some of the settings in individual posts and pages."
+msgstr ""
+
+#: admin/options.php:253
+msgid "Slider Options"
+msgstr ""
+
+#: admin/options.php:257
+msgid "Category to show in slider"
+msgstr ""
+
+#: admin/options.php:258
+msgid "All posts within the category selected here will be displayed on the slider. Usage example: create a new category \"Featured\" and assign all posts to be displayed on the slider to that category, and then select that category here."
+msgstr ""
+
+#: admin/options.php:262
+msgid "Show latest posts"
+msgstr ""
+
+#: admin/options.php:275
+msgid "Number of latest posts to display"
+msgstr ""
+
+#: admin/options.php:279
+msgid "This setting only affects the slider if \"Show latest posts\" is selected above."
+msgstr ""
+
+#: admin/options.php:306
+msgid "Slider height"
+msgstr ""
+
+#: admin/options.php:314
+msgid "Slider speed"
+msgstr ""
+
+#: admin/options.php:317
+msgid "milliseconds"
+msgstr ""
+
+#: admin/options.php:318
+msgid "This is the duration that each slider item will be shown"
+msgstr ""
+
+#: admin/options.php:323
+msgid "Move slider to bottom of page"
+msgstr ""
+
+#: admin/options.php:329
+msgid "Disable slider"
+msgstr ""
+
+#: admin/options.php:337
+msgid "Adsense Options"
+msgstr ""
+
+#: admin/options.php:341
+msgid "Show Adsense advertising"
+msgstr ""
+
+#: admin/options.php:347
+msgid "Show ads on front page as well"
+msgstr ""
+
+#: admin/options.php:353
+msgid "Your Adsense code"
+msgstr ""
+
+#: admin/options.php:362
+msgid "AddThis Options"
+msgstr ""
+
+#: admin/options.php:365
+msgid "Show AddThis social sharing button"
+msgstr ""
+
+#: admin/options.php:369
+msgid "Show in Pages as well?"
+msgstr ""
+
+#: admin/options.php:374
+msgid "Your AddThis button code"
+msgstr ""
+
+#: admin/options.php:375
+msgid "You can generate your button code from the <a href=\"http://www.addthis.com/\">AddThis website</a>."
+msgstr ""
+
+#: admin/options.php:383
+msgid "Google Analytics Options"
+msgstr ""
+
+#: admin/options.php:386
+msgid "Enable Google Analytics tracking"
+msgstr ""
+
+#: admin/options.php:390
+msgid "Google Analytics tracking code"
+msgstr ""
+
+#: admin/options.php:391
+msgid "Make sure you include the full tracking code (including the <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the <code>UA-#######-#</code> code."
+msgstr ""
+
+#: admin/options.php:399
+msgid "Widget Area Options"
+msgstr ""
+
+#: admin/options.php:400
+msgid "Alternate Widgets"
+msgstr ""
+
+#: admin/options.php:401
+msgid "You can enable the theme to show different widget areas in the front page than the rest of the website. If you enable this option, additional widget areas that will only be displayed on the front page will be added to the Widget settings page."
+msgstr ""
+
+#: admin/options.php:404
+msgid "Enable alternate front page sidebar widget area"
+msgstr ""
+
+#: admin/options.php:408
+msgid "Enable alternate front page footer widget area"
+msgstr ""
+
+#: admin/options.php:409
+msgid "You can also specify different column counts for the front page footer widget and the rest-of-site footer widget if you enable this option."
+msgstr ""
+
+#: admin/options.php:417
+msgid "Footer Options"
+msgstr ""
+
+#: admin/options.php:420
+msgid "Show Creative Commons logo"
+msgstr ""
+
+#: admin/options.php:425
+msgid "Copyright text (html allowed)"
+msgstr ""
+
+#: admin/options.php:426
+msgid "If this field is empty, the following default copyright text will be displayed:"
+msgstr ""
+
+#: admin/options.php:432
+msgid "Do not show copyright info"
+msgstr ""
+
+#: admin/options.php:446
+msgid "Support the developer"
+msgstr ""
+
+#: admin/options.php:447
+msgid "Developing this awesome theme took a lot of effort and time, weeks and weeks of voluntary unpaid work. If you like this theme or if you are using it for commercial websites, please consider a donation to the developer to help support future updates and development."
+msgstr ""
+
+#: admin/options.php:457
+msgid "Uninstall theme"
+msgstr ""
+
+#: admin/options.php:458
+msgid "<strong>Be careful!</strong> Uninstalling the theme will remove all of the theme's options from the database. Do this only if you decide not to use the theme anymore."
+msgstr ""
+
+#: admin/options.php:459
+msgid "If you just want to try another theme, there is no need to uninstall this theme. Simply activate the other theme in the Appearance > Themes admin page."
+msgstr ""
+
+#: admin/options.php:460
+msgid "Note that uninstalling this theme <strong>does not remove</strong> the theme's files. To delete the files after you have uninstalled this theme, go to Appearances > Themes and delete the theme from there."
+msgstr ""
+
+#: admin/user.php:7
+msgid "Graphene-specific User Profile Information"
+msgstr ""
+
+#: admin/user.php:8
+msgid "The settings defined here are used only with the Graphene theme."
+msgstr ""
+
+#: admin/user.php:12
+msgid "Author profile image URL"
+msgstr ""
+
+#: admin/user.php:13
+msgid "You can specify the image to be displayed as the author's profile image in the Author's page. If no URL is defined here, the author's <a href=\"http://www.gravatar.com\">Gravatar</a> will be used."
+msgstr ""
+
+#: admin/user.php:17
+msgid "Please enter the URL to your profile image."
+msgstr ""
+
+#: admin/user.php:17
+msgid "<strong>Important: </strong>Image width must be less than or equal to <strong>150px</strong>."
+msgstr ""
+

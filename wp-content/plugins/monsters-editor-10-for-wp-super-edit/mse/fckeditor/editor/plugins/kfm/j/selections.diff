@@ -1,0 +1,54 @@
+Index: file.selections.js
+===================================================================
+--- file.selections.js	(revision 306)
++++ file.selections.js	(working copy)
+@@ -125,18 +125,25 @@
+ 	removeEvent(document,'mouseup',kfm_selection_dragFinish);
+ 	var fileids=right_column.fileids;
+ 	kfm_selectNone();
+-	var numfiles=fileids.length,f;
+-	var firstfile=$('kfm_file_icon_'+fileids[0]),lastfile=$('kfm_file_icon_'+fileids[numfiles-1]),firstLeft=getOffset(firstfile,'Left');
+-	var firstTop=getOffset(firstfile,'Top'),lastTop=getOffset(lastfile,'Top'),lastHeight=lastfile.offsetHeight;
+-	if(y1>lastTop+lastHeight)return;
+-	var icons={height:lastHeight,width:lastfile.offsetWidth};
+-	if(firstTop==lastTop){ // only one row of icons
+-		X(icons,{
+-			iconsPerLine:numfiles,
+-			marginX:(getOffset(lastfile,'Left')-firstLeft-(lastfile.offsetWidth*(numfiles-1)))/((numfiles-1)*2),
+-			marginY:0
+-		});
++	for(var i = 0; i<fileids.length; i++)
++	{
++	 	var curIcon = $('kfm_file_icon_'+fileids[i]);
++		var curTop = getOffset(curIcon,'Top');
++		var curLeft = getOffset(curIcon,'Left');
++		var curBottom = curTop + curIcon.offsetHeight;
++		var curRight = curLeft + curIcon.offsetWidth;
++		
++		if (curRight > x1 && curLeft < x2)
++		{
++			if (curBottom > y1 && curTop < y2)
++			{
++				kfm_addToSelection(fileids[i]);
++			}
++		}
+ 	}
++	
++	
++	/*
+ 	else{
+ 		for(var i=1;$('kfm_file_icon_'+fileids[i]).offsetTop==firstTop;++i);
+ 		X(icons,{
+@@ -164,10 +171,12 @@
+ 			kfm_addToSelection(fileids[yi+x]);
+ 		}
+ 	}
++	*/
+ 	kfm_selectionCheck();
+ }
+ function kfm_selection_dragStart(e){
+ 	if(window.dragType)return;
++	if (window.mouseAt.x > $('kfm_right_column').scrollWidth + $('kfm_left_column').scrollWidth) return;
+ 	window.dragType=2;
+ 	var w=getWindowSize();
+ 	addEvent(document,'mouseup',kfm_selection_dragFinish);

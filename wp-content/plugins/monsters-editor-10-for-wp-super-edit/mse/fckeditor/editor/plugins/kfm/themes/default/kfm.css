@@ -1,0 +1,120 @@
+*{font:12px sans-serif}
+html{height:100%} /* solves a bug in Konqueror */
+body{margin:0;padding:0;height:100%}
+form{padding:0;margin:0}
+td{vertical-align:top}
+
+#kfm_directories .kfm_dir_name.kfm_directory_open{background:url(themes/default/folders.gif) -48px -18px no-repeat #fe9}
+#kfm_directory_properties{color:#666}
+#kfm_directory_properties strong{display:block;font-weight:bold;border:solid #bababa;border-width:0 1px 1px 0}
+#kfm_drag_wrapper{position:absolute;padding:10px;color:#00f;border:1px solid #000;-moz-border-radius:10px;font-size:smaller;background:#eee}
+#kfm_drag_wrapper i{font-style:italic;text-decoration:none;color:#666}
+#kfm_drag_wrapper.directory{padding:0 0 0 16px;-moz-border-radius:0;min-width:120px;background:url(themes/default/folders.gif) no-repeat -48px 0 #fff;}
+#kfm_selection_drag_wrapper{position:absolute;border:1px solid #000;-moz-border-radius:10px;background:#eee}
+#kfm_left_column{width:240px;position:relative;float:left;background:white;border-right:1px solid #bababa;overflow:hidden}
+#kfm_logs_panel p{border-top:1px solid #bababa;font:10px sans-serif;margin:0;padding:0;color:#666}
+#kfm_logs_panel p:first-child{border:none}
+#kfm_right_column{overflow:auto;position:relative;height:100%;background:white}
+#kfm_right_column div.kfm_panel_header{background:url(themes/default/bitsandpieces/panelheader-bg.png) repeat-x}
+#kfm_right_column #kfm_editFileTable textarea{background:#eee;font-style:italic}
+#kfm_right_column #kfm_editFileTable td{text-align:center}
+#kfm_search_table{width:100%}
+#kfm_search_table td{width:50%}
+#kfm_search{width:100%}
+#kfm_tooltip{border:1px solid #000;background:#eee}
+
+.boxdroptracer{border:1px solid #000;-moz-border-radius:10px;background:#9cf;height:0;width:0;position:absolute;left:0;top:0}
+.last_clicked{border-style:dashed !important;border-color:red !important}
+
+.kfm_contextmenu_iconCell{width:20px;height:20px;background:#efefde}
+.contextmenu{width:auto;margin:0;padding:0;position:absolute;background:#fff;border:1px solid #000}
+.contextmenu tr:hover *{background:#efefde;font-style:italic}
+.contextmenu a{display:block;color:#000;text-decoration:none}
+.contextmenu tr.disabled *{color:#ccc;font-style:italic}
+
+div.kfm_panel{position:relative;width:240px;background:url(themes/default/bitsandpieces/panelheader-bg.png) repeat-x}
+div.kfm_panel_body{width:240px;overflow:auto}
+#kfm_file_upload_panel div.kfm_panel_body{overflow:hidden}
+div.kfm_panel_header{background:url(themes/default/bitsandpieces/panelheader.png) right -23px no-repeat;padding:0 5px;position:relative;font-size:12px;line-height:23px}
+#left_column div.kfm_panel_header{width:240px}
+html>body #left_column div.kfm_panel_header{width:230px}
+div.kfm_panel_header a{font-size:0;text-indent:-4000px;position:absolute;height:23px;width:20px;background-image:url(themes/default/bitsandpieces/panelheader.png);top:0}
+div.kfm_panel_header a.kfm_panel_header_x{right:0;background-position:-102px 0}
+div.kfm_panel_header a.kfm_panel_header_x:hover{right:0;background-position:-102px -46px}
+div.kfm_panel_header a.kfm_panel_header_M{right:21px;background-position:-81px 0}
+div.kfm_panel_header a.kfm_panel_header_M:hover{right:21px;background-position:-81px -46px}
+div.kfm_panel_header a.kfm_panel_header_r{right:21px;background-position:-81px 0}
+div.kfm_panel_header a.kfm_panel_header_r:hover{right:21px;background-position:-81px -46px}
+div.kfm_panel_header a.kfm_panel_header__{right:41px;background-position:-61px 0}
+div.kfm_panel_header a.kfm_panel_header__:hover{right:41px;background-position:-61px -46px}
+div.kfm_panel_header a.kfm_panel_header_u{display:none}
+div.kfm_panel_header a.kfm_panel_header_d{display:none}
+div.kfm_panel_header a{float:right;text-decoration:none}
+
+.kfm_empty{font-style:italic;color:#666}
+
+.kfm_file_icon{display:block;margin:5px;float:left;min-height:20px;background:url(themes/default/icons/64x64/mimetypes/unknown.png) no-repeat top center;padding:64px 10px 5px 10px;text-align:center;color:#00f;border:1px solid #fff;-moz-border-radius:10px;width:108px;overflow-x:hidden}
+.kfm_file_icon span.filename{text-decoration:underline}
+.kfm_file_icon.kfm_icontype_bz2{background-image:url(themes/default/icons/64x64/mimetypes/bz2.png)}
+.kfm_file_icon.kfm_icontype_aac2{background-image:url(themes/default/icons/64x64/mimetypes/aac2.png)}
+.kfm_file_icon.kfm_icontype_aac{background-image:url(themes/default/icons/64x64/mimetypes/aac.png)}
+.kfm_file_icon.kfm_icontype_ape{background-image:url(themes/default/icons/64x64/mimetypes/ape.png)}
+.kfm_file_icon.kfm_icontype_avi2{background-image:url(themes/default/icons/64x64/mimetypes/avi2.png)}
+.kfm_file_icon.kfm_icontype_avi{background-image:url(themes/default/icons/64x64/mimetypes/avi.png)}
+.kfm_file_icon.kfm_icontype_bz2{background-image:url(themes/default/icons/64x64/mimetypes/bz2.png)}
+.kfm_file_icon.kfm_icontype_chm{background-image:url(themes/default/icons/64x64/mimetypes/chm.png)}
+.kfm_file_icon.kfm_icontype_core{background-image:url(themes/default/icons/64x64/mimetypes/core.png)}
+.kfm_file_icon.kfm_icontype_deb{background-image:url(themes/default/icons/64x64/mimetypes/deb.png)}
+.kfm_file_icon.kfm_icontype_doc{background-image:url(themes/default/icons/64x64/mimetypes/doc.png)}
+.kfm_file_icon.kfm_icontype_document{background-image:url(themes/default/icons/64x64/mimetypes/document.png)}
+.kfm_file_icon.kfm_icontype_empty{background-image:url(themes/default/icons/64x64/mimetypes/empty.png)}
+.kfm_file_icon.kfm_icontype_flac{background-image:url(themes/default/icons/64x64/mimetypes/flac.png)}
+.kfm_file_icon.kfm_icontype_folder_setting{background-image:url(themes/default/icons/64x64/mimetypes/folder_setting.png)}
+.kfm_file_icon.kfm_icontype_font{background-image:url(themes/default/icons/64x64/mimetypes/font.png)}
+.kfm_file_icon.kfm_icontype_font_truetype{background-image:url(themes/default/icons/64x64/mimetypes/font_truetype.png)}
+.kfm_file_icon.kfm_icontype_gz{background-image:url(themes/default/icons/64x64/mimetypes/gz.png)}
+.kfm_file_icon.kfm_icontype_mov{background-image:url(themes/default/icons/64x64/mimetypes/mov.png)}
+.kfm_file_icon.kfm_icontype_mp3{background-image:url(themes/default/icons/64x64/mimetypes/mp3.png)}
+.kfm_file_icon.kfm_icontype_mp4{background-image:url(themes/default/icons/64x64/mimetypes/mp4.png)}
+.kfm_file_icon.kfm_icontype_odt{background-image:url(themes/default/icons/64x64/mimetypes/odt.png)}
+.kfm_file_icon.kfm_icontype_ogg{background-image:url(themes/default/icons/64x64/mimetypes/ogg.png)}
+.kfm_file_icon.kfm_icontype_qt{background-image:url(themes/default/icons/64x64/mimetypes/qt.png)}
+.kfm_file_icon.kfm_icontype_ram{background-image:url(themes/default/icons/64x64/mimetypes/ram.png)}
+.kfm_file_icon.kfm_icontype_rar{background-image:url(themes/default/icons/64x64/mimetypes/rar.png)}
+.kfm_file_icon.kfm_icontype_rm{background-image:url(themes/default/icons/64x64/mimetypes/rm.png)}
+.kfm_file_icon.kfm_icontype_rmvb{background-image:url(themes/default/icons/64x64/mimetypes/rmvb.png)}
+.kfm_file_icon.kfm_icontype_rpm{background-image:url(themes/default/icons/64x64/mimetypes/rpm.png)}
+.kfm_file_icon.kfm_icontype_rtf{background-image:url(themes/default/icons/64x64/mimetypes/rtf.png)}
+.kfm_file_icon.kfm_icontype_rt{background-image:url(themes/default/icons/64x64/mimetypes/rt.png)}
+.kfm_file_icon.kfm_icontype_rv{background-image:url(themes/default/icons/64x64/mimetypes/rv.png)}
+.kfm_file_icon.kfm_icontype_svg{background-image:url(themes/default/icons/64x64/mimetypes/svg.png)}
+.kfm_file_icon.kfm_icontype_sxw{background-image:url(themes/default/icons/64x64/mimetypes/sxw.png)}
+.kfm_file_icon.kfm_icontype_tar{background-image:url(themes/default/icons/64x64/mimetypes/tar.png)}
+.kfm_file_icon.kfm_icontype_tgz{background-image:url(themes/default/icons/64x64/mimetypes/tgz.png)}
+.kfm_file_icon.kfm_icontype_txt2{background-image:url(themes/default/icons/64x64/mimetypes/txt2.png)}
+.kfm_file_icon.kfm_icontype_txt{background-image:url(themes/default/icons/64x64/mimetypes/txt.png)}
+.kfm_file_icon.kfm_icontype_unknown{background-image:url(themes/default/icons/64x64/mimetypes/unknown.png)}
+.kfm_file_icon.kfm_icontype_zip{background-image:url(themes/default/icons/64x64/mimetypes/zip.png)}
+div:hover.kfm_file_icon{background-color:#f0f8ff;border-color:#bababa}
+div.kfm_file_icon.selected{background-color:#eee;border-color:#000}
+
+#kfm_directories,#kfm_directories table{border-spacing:0;margin:0;width:100%}
+#kfm_directories td{padding:0}
+#kfm_directories *{line-height:14px;font:12px sans-serif}
+#kfm_directories .kfm_dir_lines_child{width:16px;height:18px;background:url(themes/default/folders.gif) -16px 0 no-repeat}
+#kfm_directories .kfm_dir_lines_child a{font-size:0;text-indent:-4000px;display:block;width:16px;height:18px;background:url(themes/default/folders.gif) -32px -18px}
+#kfm_directories .kfm_dir_lines_child a.kfm_dir_node_closed{background:url(themes/default/folders.gif) -32px 0}
+#kfm_directories .kfm_dir_lines_lastchild{width:16px;height:18px;background:url(themes/default/folders.gif) -16px -18px no-repeat}
+#kfm_directories .kfm_dir_lines_lastchild a{font-size:0;text-indent:-4000px;display:block;width:16px;height:18px;background:url(themes/default/folders.gif) -32px -18px no-repeat}
+#kfm_directories .kfm_dir_lines_lastchild a.kfm_dir_node_closed{background:url(themes/default/folders.gif) -32px 0px no-repeat}
+#kfm_directories .kfm_dir_lines_nochild{width:16px;background:url(themes/default/folders.gif) 0 0 repeat-y}
+#kfm_directories .kfm_dir_name{background:url(themes/default/folders.gif) no-repeat -48px 0;text-indent:18px;color:blue;text-decoration:underline;position:relative}
+* html #kfm_directories .kfm_dir_name{text-indent:9px}
+#kfm_directories .kfm_dir_name.kfm_directory_open{background:url(themes/default/folders.gif) -48px -18px no-repeat; background-color:#eee}
+#kfm_directories .kfm_dir_name div:hover{color:red}
+#message{top:2px; right:3px; position:absolute; z-index:10000; background-color: #f00; color: #000; font-weight:bold;}
+.button{margin-left:15px;color:#fff;background:#666;font-weight:bold;text-decoration:none;padding:2px 4px;display:block;text-align:center;border:2px solid;border-color:#ccc #999 #999 #ccc}
+.button:hover{color:#f00;background:#fff}
+
+/* IE-specific crap */
+.ie .kfm_panel_header{height:23px}
