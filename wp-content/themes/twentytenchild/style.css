@@ -8,17 +8,28 @@ Template: twentyten
 @import url("../twentyten/style.css");
 
 #site-title a {
-color: #495928;
+    color: #495928;
 }
 
 #branding img {
-	border-top: 0px solid #000;
+    border-top: 0px solid #000;
 }
 
 body { 
-	background-color: #495928; 
+    background-color: #495928; 
 }
 
 .clear{
     clear: both;
+}
+
+.gmap{
+    margin: 3px;
+}
+
+.gmap-wrapper{
+    width: 610px;
+    float:right; 
+    background-color: #eee;
+    border: 1px solid #666;
 }
